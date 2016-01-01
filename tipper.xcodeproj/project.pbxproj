@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F23918CF1C35F79D0053B717 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23918CE1C35F79D0053B717 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		F2FE60B81C34FE1F003CDD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE60B71C34FE1F003CDD76 /* AppDelegate.swift */; };
 		F2FE60BA1C34FE1F003CDD76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE60B91C34FE1F003CDD76 /* ViewController.swift */; };
 		F2FE60BD1C34FE1F003CDD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FE60BB1C34FE1F003CDD76 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F23918CE1C35F79D0053B717 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F2FE60B41C34FE1F003CDD76 /* tipper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2FE60B71C34FE1F003CDD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2FE60B91C34FE1F003CDD76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F23918CF1C35F79D0053B717 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		F2FE60AB1C34FE1F003CDD76 = {
 			isa = PBXGroup;
 			children = (
+				F23918CE1C35F79D0053B717 /* CoreLocation.framework */,
 				F2FE60B61C34FE1F003CDD76 /* tipper */,
 				F2FE60CB1C34FE1F003CDD76 /* tipperTests */,
 				F2FE60D61C34FE1F003CDD76 /* tipperUITests */,
@@ -485,6 +489,7 @@
 				F2FE60DE1C34FE1F003CDD76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2FE60DF1C34FE1F003CDD76 /* Build configuration list for PBXNativeTarget "tipperTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				F2FE60E11C34FE1F003CDD76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2FE60E21C34FE1F003CDD76 /* Build configuration list for PBXNativeTarget "tipperUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				F2FE60E41C34FE1F003CDD76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
