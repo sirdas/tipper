@@ -26,7 +26,7 @@ App tracks location and makes tip percentage adjustments according to the countr
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/8SxroyV' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/8SxroyV.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
